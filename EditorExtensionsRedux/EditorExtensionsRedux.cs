@@ -234,7 +234,7 @@ namespace EditorExtensionsRedux
                 return true;
             }
 
-            if (Versioning.version_major == 1 && Versioning.version_minor == 3 && Versioning.Revision == 0 )
+            if (Versioning.version_major == 1 && (Versioning.version_minor == 3 || Versioning.version_minor == 4) && Versioning.Revision == 0 )
             {
                 // SelectRoot
                 SELECTEDPART = 13;

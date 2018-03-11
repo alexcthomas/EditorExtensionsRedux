@@ -132,10 +132,10 @@
     </Reference>
   </ItemGroup>
   <PropertyGroup>
-    <PostBuildEvent>start /D D:\Users\jbb\github\EditorExtensionsRedux\EditorExtensionsRedux  /WAIT deploy.bat
+    <PostBuildEvent>start /D D:\source\EditorExtensionsRedux\EditorExtensionsRedux  /WAIT deploy.bat
 
 if $(ConfigurationName) == Release (
-start /D D:\Users\jbb\github\EditorExtensionsRedux\EditorExtensionsRedux  /WAIT buildRelease.bat
+start /D D:\source\EditorExtensionsRedux\EditorExtensionsRedux  /WAIT buildRelease.bat
 )
 </PostBuildEvent>
   </PropertyGroup>
